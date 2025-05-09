@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #E9E9E9;
+	font: 90% 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,Osaka,'MS PGothic',arial,helvetica,sans-serif;
+}
+table.head { width:100%; background:#8080c0; }
+td.obi { padding:7px; color:#fff; font-weight:bold; }
+table.menu { width:350px; background:#8080c0; border-collapse:collapse; margin:1em 0; }
+table.menu th, table.menu td { border:1px solid #8080c0; padding:8px; white-space:nowrap; }
+table.menu th { background:#c8c8e3; }
+table.menu td { background:#fff;  }
+.wid-300 { width:300px; }
+p.red { color:#dd0000; }
+
+#head {
+	background:#454545;
+	color:#fff;
+	padding:3px 6px;
+	font-weight:bold;
+	border-top:2px solid #5DA797;
+}
+#body {
+	padding: 0 1em;
+}
+.form-tbl {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+.form-tbl th, .form-tbl td {
+	border: 1px solid #333;
+	padding: 10px;
+}
+.form-tbl th {
+	background: #ccc;
+}
+.form-tbl td {
+	background: #fff;
+}
+.icon {
+	vertical-align: middle;
+}
+.ta-r {
+	text-align: right;
+}
+.ta-c {
+	text-align: center;
+}
+.back-btn {
+	margin: 3px;
+	text-align: right;
+}
+
+/* for login */
+#login {
+	width: 400px;
+	margin: 3em auto;
+	text-align: left;
+	padding: 1em 2em;
+	border-radius:6px;
+}
+#login legend {
+	padding: 5px;
+	font-weight: bold;
+}
+#login input[type="text"], #login input[type="password"] {
+	width: 300px;
+	padding: 5px;
+}
+#login input[type="submit"] {
+	width: 100px;
+	height: 30px;
+}
+#login p {
+	margin: 2em 0;
+}
+#err-box {
+	width: 400px;
+	margin: 2em auto;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 1em;
+	text-align: center;
+}
+#err-msg {
+	color: #dd0000;
+}
+#msg-box {
+	width: 400px;
+	margin: 2em;
+	border: 1px solid gray;
+	padding: 1em;
+	text-align: center;
+	color: #006400;
+}
+
